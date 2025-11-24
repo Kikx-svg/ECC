@@ -14,14 +14,14 @@ Ce script permet de chiffrer et déchiffrer des messages à l’aide d’un syst
 python script-ecc.py keygen
 
 2. Chiffrer un message
-python script-ecc.py crypt monECC.pub "Bonjour le monde"
+python script-ecc.py crypt monECC.pub "Le code c'est difficile"
 
    Le programme affiche un texte chiffré du type : 25;78:SGVsbG8gV29ybGQ=
 
 3. Déchiffrer un message
 python script-ecc.py decrypt monECC.priv "25;78:SGVsbG8gV29ybGQ="
 
-Résultat : Bonjour le monde
+Résultat : Le code c'est difficile
 
 Afficher l’aide
 python script-ecc.py help
