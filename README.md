@@ -6,12 +6,11 @@ Ce script permet de chiffrer et déchiffrer des messages à l’aide d’un syst
 
 ## ⚙️ Installation
 
-1. Avoir **Python 3** installé sur ton ordinateur.  
-2. Installer la bibliothèque nécessaire :
-   ```bash
+1. Avoir Python installé sur ton ordinateur.  
+2. Installer la bibliothèque nécessaire
    pip install cryptography
 
-   1. Générer une paire de clés
+1. Générer une paire de clés
 python script-ecc.py keygen
 
 2. Chiffrer un message
